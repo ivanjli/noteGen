@@ -12,6 +12,7 @@ cat <<EOF > "${FILE_NAME}"
 	**************************
 EOF
 fi
-vi "${FILE_NAME}"
+echo "" >> "${FILE_NAME}" #adding a new line
+vi +$ -c 'startinsert' "${FILE_NAME}" 
 
 
