@@ -1,0 +1,1 @@
+This is a simple shell script for taking notes. It takes the note name as an argument and creates a new file named YYMMDD_NoteName, puts a header at the beginning and enters insert mode.
